@@ -27,7 +27,7 @@ public class BinarySearch{
 	}
 
 	public static void main(String[] args){
-		int arr[] = {3, 14, 17, 61, 64, 75};	//Sorted array input
+		int arr[] = {61};	//Sorted array input
 		int elementToFind = 64;
 		int indexOfElement = search(arr, elementToFind);
 		System.out.println("Index of " + elementToFind + " is: " + indexOfElement);
