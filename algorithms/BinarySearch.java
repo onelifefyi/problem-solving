@@ -1,3 +1,5 @@
+// My initial implementation of Binary Search
+
 public class BinarySearch{
 	
 	public static int search(int[] arr, int elementToFind){
