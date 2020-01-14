@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 class IsUnique{
 
     static boolean isUnique(String txt){
@@ -15,8 +17,21 @@ class IsUnique{
         return result;
     }
 
+//Using Hash Map
+    static boolean isUniqueImproved(String txt){
+        boolean result = true;
+        HashMap hmap = new HashMap();
+        for(int i=0; i<txt.length(); i++){
+            if(hmap.containsKey(txt.charAt(i))){
+                hmap.put(txt.charAt(i),(int) hmap.get(txt.charAt(i)) + 1);
+            }
+            System.out.println((String) hmap.get('l'));
+        }
+        return result;
+    }
+
     public static void main(String args[]){
-        String txt = "Helo";
-        System.out.println(isUnique(txt));
+        String txt = "Hello";
+        System.out.println(isUniqueImproved(txt));
     }
 }
