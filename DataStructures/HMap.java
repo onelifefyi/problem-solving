@@ -6,5 +6,6 @@ class HMap{
         newHM.put("name","Apoorv");
         newHM.put("age", 22);
         newHM.put("location","Pune");
+        System.out.println(newHM);
     }
 }
