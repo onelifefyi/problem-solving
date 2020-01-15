@@ -15,7 +15,7 @@ class PrimeFactor{
                     if (pcount > 2) {
                         break;
                     }
-                }
+                }l
 //                System.out.println(i);
             }
         }
