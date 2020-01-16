@@ -33,6 +33,7 @@ class IsUnique{
 
     public static void main(String args[]){
         String txt = "Helo";
-        System.out.println(isUniqueImproved(txt));
+        System.out.println("Iteratively: " + isUniqueImproved(txt));
+        System.out.println("Using Hash Map: " + isUniqueImproved(txt));
     }
 }
