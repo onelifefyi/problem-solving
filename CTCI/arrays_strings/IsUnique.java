@@ -19,19 +19,20 @@ class IsUnique{
 
 //Using Hash Map
     static boolean isUniqueImproved(String txt){
-        boolean result = true;
-        HashMap hmap = new HashMap();
+        HashMap mapH = new HashMap();
         for(int i=0; i<txt.length(); i++){
-            if(hmap.containsKey(txt.charAt(i))){
-                hmap.put(txt.charAt(i),(int) hmap.get(txt.charAt(i)) + 1);
+            if(mapH.containsKey(txt.charAt(i))){
+                return false;
             }
-            System.out.println((String) hmap.get('l'));
+            else{
+                mapH.put(txt.charAt(i), 1);
+            }
         }
-        return result;
+        return true;
     }
 
     public static void main(String args[]){
-        String txt = "Hello";
+        String txt = "Helo";
         System.out.println(isUniqueImproved(txt));
     }
 }
