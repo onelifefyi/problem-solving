@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.BitSet;
 
 class IsUnique{
 
@@ -31,9 +32,19 @@ class IsUnique{
         return true;
     }
 
+    static boolean isUniqueImproved2(String txt){
+        BitSet bSet = new BitSet(26);
+        for(int i=0; i<txt.length(); i++){
+            bSet.set(txt.charAt(i)%26);
+        }
+        System.out.println(bSet.length());
+        return true;
+    }
+
     public static void main(String args[]){
-        String txt = "Helo";
+        String txt = "hello";
         System.out.println("Iteratively: " + isUniqueImproved(txt));
         System.out.println("Using Hash Map: " + isUniqueImproved(txt));
+        System.out.println("Using Bit Vector: " + isUniqueImproved2(txt) );
     }
 }
