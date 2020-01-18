@@ -33,11 +33,16 @@ class IsUnique{
     }
 
     static boolean isUniqueImproved2(String txt){
-        BitSet bSet = new BitSet(26);
-        for(int i=0; i<txt.length(); i++){
-            bSet.set(txt.charAt(i)%26);
+        boolean[] bArr = new boolean[26];
+        for(char c: txt.toCharArray()){
+ //           System.out.println(c);
+            if(bArr[c-'a']){
+                return false;
+            }
+            else{
+                bArr[c-'a'] = true;
+            }
         }
-        System.out.println(bSet.length());
         return true;
     }
 
@@ -45,6 +50,6 @@ class IsUnique{
         String txt = "hello";
         System.out.println("Iteratively: " + isUniqueImproved(txt));
         System.out.println("Using Hash Map: " + isUniqueImproved(txt));
-        System.out.println("Using Bit Vector: " + isUniqueImproved2(txt) );
+        System.out.println("Using Boolean array: " + isUniqueImproved2(txt) );
     }
 }
