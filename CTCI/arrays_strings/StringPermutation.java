@@ -1,4 +1,4 @@
-class StringPermutation{
+class StringPermutation {
 
     static boolean checkPer(String s1, String s2){
         if(s1.length() != s2.length()){
