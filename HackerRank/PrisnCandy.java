@@ -12,12 +12,13 @@ class PrisnCandy{
                 arr[i] = ++counter;
             }
         }
-        for(int num: arr){
-            System.out.print(num+ " ");
-        }
-        return 61;
+//       for(int num: arr){
+//          System.out.print(num+ " ");
+//     }
+        num_cndy %= num_pri;
+        return arr[num_cndy]-1;
     }
     public static void main(String[] args){
-        int x = getLast(7, 4, 4);
+        System.out.print(getLast(7, 8, 7));
     }
 }
