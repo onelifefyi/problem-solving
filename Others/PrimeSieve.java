@@ -2,6 +2,9 @@ import java.util.Arrays;
 
 class PrimeSieve{
 
+    static void findPrimeUpdated(int num){
+        
+    }
     static void findPrime(int num){
         Boolean[] bArr = new Boolean[num+1];
         Arrays.fill(bArr, true);
@@ -21,5 +24,6 @@ class PrimeSieve{
     }
     public static void main(String[] args) {
         findPrime(61);
+        findPrimeUpdated(61);
     }
 }
