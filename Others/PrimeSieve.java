@@ -6,9 +6,11 @@ class PrimeSieve{
         Boolean bArr[] = new Boolean[num+1];
         Arrays.fill(bArr, true);
         for(int i=2; i*i <= num; i++){
-            for(int j =i*i; j<=num; j+=i){
-                if(bArr[j]){
-                    bArr[j] = false;
+            if(bArr[i] == true){
+                for(int j =i*i; j<=num; j+=i){
+                    if(bArr[j]){
+                        bArr[j] = false;
+                    }
                 }
             }
         }
