@@ -1,3 +1,5 @@
+/*  */
+
 class RotateArr{
     public void rotate(int[] nums, int k) {
         int temp;
@@ -13,6 +15,10 @@ class RotateArr{
 
 class Solution{
     public static void main(String[] args){
-        
+        RotateArr obj = new RotateArr();
+        int[] arr = {3, 14, 17, 61, 64, 75};
+        for(int ele: obj.rotate(arr, 3)){
+            System.out.print(ele + "'");
+        }
     }
 }
