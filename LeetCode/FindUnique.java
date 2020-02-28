@@ -13,7 +13,7 @@ class FindUnique{
 class Solution{
     public static void main(String[] args){
         int[] arr = {1, 4, 1, 42, 4};
-        FindUnique obj = new FindUnique(arr);
-        System.out.print("Unique no is: " + getUnique());
+        FindUnique obj = new FindUnique();
+        System.out.print("Unique no is: " + obj.getUnique(arr));
     }
 }
