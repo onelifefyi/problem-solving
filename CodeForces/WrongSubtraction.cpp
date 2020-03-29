@@ -13,5 +13,5 @@ int main(void){
         }
     }
     std::cout << n;
-    return n;
+    return 0;
 }
