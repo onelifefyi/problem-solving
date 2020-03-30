@@ -1,7 +1,7 @@
 //problem: https://codeforces.com/problemset/problem/785/A
 import java.util.HashMap;
 import java.util.Scanner;
-class NoSides{
+public class NoSides{
     public static void main(String[] args){
         HashMap<String, Integer> hMap = new HashMap<>();
         hMap.put("Tetrahedron", 4);
