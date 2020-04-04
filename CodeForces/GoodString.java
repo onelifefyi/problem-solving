@@ -6,20 +6,21 @@ public class GoodString{
         Scanner sObj = new Scanner(System.in);
         char[] input = sObj.nextLine().toCharArray();
         int aCount = 0;
-        int lengthStr = input.length;
+        int result = 0;
         for(char c: input){
             if(c=='a'){
                 aCount++;
             }
         }
         if(aCount==0){
-            lengthStr=0;
+            result=0;
+        }
+        else if((aCount*2-1)<input.length){
+            result = aCount*2-1;
         }
         else{
-            while(aCount<=lengthStr/2){
-                lengthStr--;
-            }
+            result = input.length;
         }
-        System.out.print(lengthStr);
+        System.out.println(result);
     }
 }
