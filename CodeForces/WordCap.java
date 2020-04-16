@@ -5,7 +5,7 @@ public class WordCap{
     public static void main(String[] args){ 
         Scanner sObj = new Scanner(System.in);
         String input = sObj.nextLine();
-        if((int)input.charAt(0) < 90){
+        if((int)input.charAt(0) < 91){
             System.out.println(input);
         }
         else{
