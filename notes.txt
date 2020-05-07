@@ -2,3 +2,5 @@
                 P.S: It's not even 11:00pm yet.
 2: 28/04/2020: Taking very huge as input on int var = Scanner.nextInt() won't work (Input mismatch)
                 I should be using long var = Scanner.nextLong()
+3: 07/05/2020: I understimated the problem https://codeforces.com/problemset/problem/1230/A.... Solved in CPP
+                Still Incomplete
