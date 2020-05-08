@@ -4,3 +4,5 @@
                 I should be using long var = Scanner.nextLong()
 3: 07/05/2020: I understimated the problem https://codeforces.com/problemset/problem/1230/A.... Solved in CPP
                 Still Incomplete
+4: 08/05/2020: Completed the last days problem: tip for Coding Questions if it is small then hardcode it 
+                eg for last problem only 4 times iteration was required, hence used 4 loops
