@@ -6,3 +6,6 @@
                 Still Incomplete
 4: 08/05/2020: Completed the last days problem: tip for Coding Questions if it is small then hardcode it 
                 eg for last problem only 4 times iteration was required, hence used 4 loops
+5: 12/05/2020: Solved a problem (see AbAb), It first felt like, I won't be able to solve this problem, but then I started thinking and took pencil and paper to figure out the 
+                solution. Finally it worked!! (first try!! although it's thanks to test cases (see note))
+                Note: Always check the range, cos sometimes we need to use long instead of int
