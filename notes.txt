@@ -11,3 +11,4 @@
                 Note: Always check the range, cos sometimes we need to use long instead of int
 6: 13/05/2020: BDcake.java (3rd of the day) Seemed complex, had problem taking inputs(chars). Finally solved, I had to derive a formula for # of combinations to solve this. 
 	       (Again: Pen and Paper works!! (Formula))
+		- StonePile (Always! Always!!!) run on given test case example! Helps understand question better
