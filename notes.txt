@@ -9,3 +9,5 @@
 5: 12/05/2020: Solved a problem (see AbAb), It first felt like, I won't be able to solve this problem, but then I started thinking and took pencil and paper to figure out the 
                 solution. Finally it worked!! (first try!! although it's thanks to test cases (see note))
                 Note: Always check the range, cos sometimes we need to use long instead of int
+6: 13/05/2020: BDcake.java (3rd of the day) Seemed complex, had problem taking inputs(chars). Finally solved, I had to derive a formula for # of combinations to solve this. 
+	       (Again: Pen and Paper works!! (Formula))
