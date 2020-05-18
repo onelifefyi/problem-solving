@@ -12,4 +12,6 @@
 6: 13/05/2020: BDcake.java (3rd of the day) Seemed complex, had problem taking inputs(chars). Finally solved, I had to derive a formula for # of combinations to solve this. 
 	       (Again: Pen and Paper works!! (Formula))
 		- StonePile (Always! Always!!!) run on given test case example! Helps understand question better
-7: 14/05/2020: I thought CodeForces is conspiting against me. PrimeMinister problem. N.B Always double check the expected output format!!! (Good Question though)
+7: 14/05/2020: I thought CodeForces is conspiring against me. PrimeMinister problem. N.B Always double check the expected output format!!! (Good Question though)
+		- I participated in first codeforces competition (div3). Solved 2/6 (almost +1). It was a good experience. 
+8: 17/05/2020: A good implementation that I did for a for loop (lol for-for). Checkout GameOutput (Problem 157A). I can see myself getting abit better
