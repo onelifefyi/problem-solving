@@ -15,3 +15,5 @@
 7: 14/05/2020: I thought CodeForces is conspiring against me. PrimeMinister problem. N.B Always double check the expected output format!!! (Good Question though)
 		- I participated in first codeforces competition (div3). Solved 2/6 (almost +1). It was a good experience. 
 8: 17/05/2020: A good implementation that I did for a for loop (lol for-for). Checkout GameOutput (Problem 157A). I can see myself getting abit better
+9: 21/05/2020: Solved a problem see candy2. It didn't got accepted b'cos time out but I found a more accurate solution. 
+		- Remember in CP time matter a lot.
