@@ -17,3 +17,5 @@
 8: 17/05/2020: A good implementation that I did for a for loop (lol for-for). Checkout GameOutput (Problem 157A). I can see myself getting abit better
 9: 21/05/2020: Solved a problem see candy2. It didn't got accepted b'cos time out but I found a more accurate solution. 
 		- Remember in CP time matter a lot.
+10: 23/05/2020: Prod1: (1206B). Logic correct, tested(all ok), forgot long range and and and..... also I waas multiplying really long numbers which caused it to go out of range too!
+		Hence had to change approach, (prev I was multiplying long, now I just counted the no of -vs insted of multiplying it). Good One! Took around 90 mins to fix!!!
