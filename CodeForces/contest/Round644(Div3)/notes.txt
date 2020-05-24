@@ -1,0 +1,18 @@
+Contest:  Codeforces Round #644 (Div. 3)
+https://codeforces.com/blog/entry/77796
+
+
+Solved A,B,C & E (4 out of 8).
+
+*D took a lot of time (time out error), couldn't find a way to get highest prime factor of a num. It a lot of time.
+
+*E: I didn't check the input format properly. It was a matrix but the numbers were of the form:
+		1110
+		0001
+		...
+So, the problem was I took it as nextInt(), but it took the entire 1110 as a int! So had to change stuffs and took a lot 
+	of time to figure out that
+
+* Didn't got enough time to check F, G and H
+
+NOTE: Time is an important factor, if I can't figure out a problem, I should move ahead. Maybe alloting time for each question might work.
