@@ -19,3 +19,8 @@
 		- Remember in CP time matter a lot.
 10: 23/05/2020: Prod1: (1206B). Logic correct, tested(all ok), forgot long range and and and..... also I waas multiplying really long numbers which caused it to go out of range too!
 		Hence had to change approach, (prev I was multiplying long, now I just counted the no of -vs insted of multiplying it). Good One! Took around 90 mins to fix!!!
+11: 24/05/2020: CodeForces Div3 #644. I solved 4/8 problems. almost +1 but... that took me alot of time and I was not able to solve it. Remember to alott time.
+		Got rank in 5ks and rating dropped to 1349. (Unexpected, probably due to changes in rating)
+12: 26/05/2020: Only one question 1291A took me around 3 hours and wasted on other stuffs too. I couldn't solve it, was about to give up and just leave. but Saw the editorial and voila,
+		it was soo easy, I just couldn't see the approach.
+		+ Taking input took me time. I thought I got Good at it but no!, I gotta improve in taking input string-> int arr
