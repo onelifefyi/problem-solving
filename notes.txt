@@ -24,3 +24,7 @@
 12: 26/05/2020: Only one question 1291A took me around 3 hours and wasted on other stuffs too. I couldn't solve it, was about to give up and just leave. but Saw the editorial and voila,
 		it was soo easy, I just couldn't see the approach.
 		+ Taking input took me time. I thought I got Good at it but no!, I gotta improve in taking input string-> int arr
+13: 27/05/2020: Tried 2 so far.... On first it was some crazy set implementation (see ) so skipped it after trying alot,
+		The second (1197A) one got solved..... was happy but then the damn timeout error showed up!!!
+			1197A notes - At first I was using "continue;" before taking input that caused problem.
+				    - I had to sort an array (to find the 2nd max element, that threw timeout error in java)
