@@ -1,30 +1,43 @@
 1: 25/04/2020: Damn!! I can't code at night, anyway I tried to solve codeforces 700 question and inderstood the approach too but I have problem coding at night I feel sleepy.
                 P.S: It's not even 11:00pm yet.
+
 2: 28/04/2020: Taking very huge as input on int var = Scanner.nextInt() won't work (Input mismatch)
                 I should be using long var = Scanner.nextLong()
+
 3: 07/05/2020: I understimated the problem https://codeforces.com/problemset/problem/1230/A.... Solved in CPP
                 Still Incomplete
+
 4: 08/05/2020: Completed the last days problem: tip for Coding Questions if it is small then hardcode it 
                 eg for last problem only 4 times iteration was required, hence used 4 loops
+
 5: 12/05/2020: Solved a problem (see AbAb), It first felt like, I won't be able to solve this problem, but then I started thinking and took pencil and paper to figure out the 
                 solution. Finally it worked!! (first try!! although it's thanks to test cases (see note))
                 Note: Always check the range, cos sometimes we need to use long instead of int
+
 6: 13/05/2020: BDcake.java (3rd of the day) Seemed complex, had problem taking inputs(chars). Finally solved, I had to derive a formula for # of combinations to solve this. 
 	       (Again: Pen and Paper works!! (Formula))
 		- StonePile (Always! Always!!!) run on given test case example! Helps understand question better
+
 7: 14/05/2020: I thought CodeForces is conspiring against me. PrimeMinister problem. N.B Always double check the expected output format!!! (Good Question though)
 		- I participated in first codeforces competition (div3). Solved 2/6 (almost +1). It was a good experience. 
+
 8: 17/05/2020: A good implementation that I did for a for loop (lol for-for). Checkout GameOutput (Problem 157A). I can see myself getting abit better
+
 9: 21/05/2020: Solved a problem see candy2. It didn't got accepted b'cos time out but I found a more accurate solution. 
 		- Remember in CP time matter a lot.
+
 10: 23/05/2020: Prod1: (1206B). Logic correct, tested(all ok), forgot long range and and and..... also I waas multiplying really long numbers which caused it to go out of range too!
 		Hence had to change approach, (prev I was multiplying long, now I just counted the no of -vs insted of multiplying it). Good One! Took around 90 mins to fix!!!
+
 11: 24/05/2020: CodeForces Div3 #644. I solved 4/8 problems. almost +1 but... that took me alot of time and I was not able to solve it. Remember to alott time.
 		Got rank in 5ks and rating dropped to 1349. (Unexpected, probably due to changes in rating)
+
 12: 26/05/2020: Only one question 1291A took me around 3 hours and wasted on other stuffs too. I couldn't solve it, was about to give up and just leave. but Saw the editorial and voila,
 		it was soo easy, I just couldn't see the approach.
 		+ Taking input took me time. I thought I got Good at it but no!, I gotta improve in taking input string-> int arr
-13: 27/05/2020: Tried 2 so far.... On first it was some crazy set implementation (see ) so skipped it after trying alot,
+
+13: 27/05/2020: Tried 2 so far.... On first it was some crazy set implementation (see 1313A FastFood) so skipped it after trying alot,
 		The second (1197A) one got solved..... was happy but then the damn timeout error showed up!!!
 			1197A notes - At first I was using "continue;" before taking input that caused problem.
 				    - I had to sort an array (to find the 2nd max element, that threw timeout error in java)
+		* Finally Solved the second (1197A). Took help from GeeksForGeeks to find 2nd max no from array. O(N) whereas java's sort takes O(nlogn)
