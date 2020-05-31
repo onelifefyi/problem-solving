@@ -41,3 +41,6 @@
 			1197A notes - At first I was using "continue;" before taking input that caused problem.
 				    - I had to sort an array (to find the 2nd max element, that threw timeout error in java)
 		* Finally Solved the second (1197A). Took help from GeeksForGeeks to find 2nd max no from array. O(N) whereas java's sort takes O(nlogn)
+
+14: 30/05/2020: Doggo Problem. CodeForces 900 (1025A). It should have taken a lot of time, with intuition however it was quite easy.
+		(It's the case for most of the low level problems!!) 
