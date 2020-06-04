@@ -44,3 +44,5 @@
 
 14: 30/05/2020: Doggo Problem. CodeForces 900 (1025A). It should have taken a lot of time, with intuition however it was quite easy.
 		(It's the case for most of the low level problems!!) 
+
+15: 04/06/2020: 1057A - Bmail Computer Network: First time used stack. Took time to come up with implementation. But was worth it (* special problem)
