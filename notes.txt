@@ -48,3 +48,4 @@
 15: 04/06/2020: 1057A - Bmail Computer Network: First time used stack. Took time to come up with implementation. But was worth it (* special problem)
 
 16: 05/06/2020: 1A. My first 1000 problem, Always remember the range of input.... use double/long
+		- 131A (1000): I don't think this problem was properly explained..... Took me alot of submissions to clear the problem statement by looking at test cases.
