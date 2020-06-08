@@ -53,3 +53,4 @@
 17: 06/06/2020: One more example of not so good question, It was more of a word play!! anyway I played a lil dirty and hardcoded.... 732B Corman (1000)
 
 18: 07/06/2020: Checkout problem: 766B, and what was the need to sort. (It's b'cos the best possible way to form a non degenerate triangle is by closest sides)
+		- Tried to solve CodeChef, getting NZEC error, maybe b'cos of mismatch in input format for CodeChef.
