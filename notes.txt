@@ -55,5 +55,5 @@
 18: 07/06/2020: Checkout problem: 766B, and what was the need to sort. (It's b'cos the best possible way to form a non degenerate triangle is by closest sides)
 		- Tried to solve CodeChef, getting NZEC error, maybe b'cos of mismatch in input format for CodeChef.
 
-19: 10/06/2020: I didn't read the question properly... Just tested on sample cases, I need to read the problem and code based on every statement present on question,
+19: 9/06/2020: I didn't read the question properly... Just tested on sample cases, I need to read the problem and code based on every statement present on question,
 		not just making a rough solution that satisfies the given sample test cases... (Problem: 798A)
