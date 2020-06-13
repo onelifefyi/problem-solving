@@ -57,3 +57,12 @@
 
 19: 9/06/2020: I didn't read the question properly... Just tested on sample cases, I need to read the problem and code based on every statement present on question,
 		not just making a rough solution that satisfies the given sample test cases... (Problem: 798A)
+
+20: 13/06/2020: Silly me, Silly me!! CF 1027-A: This was a string problem where we could shift the characters to +1 or -1...
+		In question it was mentioned that we shouldn't perform rotation i.e, a!=z....
+		But, misinterpreted it... and ended up solving it by rotating, it took alot of time and was not that good of a code
+		Anyway, few learning points:
+		- if I want to create a char -> arr map, we can use for each char ch: arr[i++] = (ch - 97)%26
+		  this way 'a' will be at 0 index and so on... It makes it easy to understand
+		  previously I was not subtracting by 97 and it got difficult to interpret b'cos a was at index 17 or something which wasn't very intuitive..
+		
