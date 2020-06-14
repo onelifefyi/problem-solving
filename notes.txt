@@ -66,3 +66,4 @@
 		  this way 'a' will be at 0 index and so on... It makes it easy to understand
 		  previously I was not subtracting by 97 and it got difficult to interpret b'cos a was at index 17 or something which wasn't very intuitive..
 		
+21: 14/06/2020: 1136/B, I think this was a good question for me, it took me some thinking to come up with formulae for getting travel and blocks movement moves.
