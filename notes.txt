@@ -68,5 +68,7 @@
 		
 21: 14/06/2020: 1136/B, I think this was a good question for me, it took me some thinking to come up with formulae for getting travel and blocks movement moves.
 
-22: 15/06/2020: I can see improvement: 1117/B, needed top 2 max nos. So, Instead of sorting I only kept top 2 and didn't even create an array to store other nos,
+22: 15/06/2020: I can see improvement: CF 1117/B, needed top 2 max nos. So, Instead of sorting I only kept top 2 and didn't even create an array to store other nos,
 		and then had to write a math formula to find out sum.... Checkout, a good problem. (Emote.java)
+		+1 CF 465/B: Inbox.java, It was an implementation problem, the thing about implementation problems is that you gotta look at the problem very well
+		and try to come up with a formula/ try to simplify the problem...... The formula for this problem that I came up with doesn't feel that efficient.
