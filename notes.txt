@@ -67,3 +67,6 @@
 		  previously I was not subtracting by 97 and it got difficult to interpret b'cos a was at index 17 or something which wasn't very intuitive..
 		
 21: 14/06/2020: 1136/B, I think this was a good question for me, it took me some thinking to come up with formulae for getting travel and blocks movement moves.
+
+22: 15/06/2020: I can see improvement: 1117/B, needed top 2 max nos. So, Instead of sorting I only kept top 2 and didn't even create an array to store other nos,
+		and then had to write a math formula to find out sum.... Checkout, a good problem. (Emote.java)
