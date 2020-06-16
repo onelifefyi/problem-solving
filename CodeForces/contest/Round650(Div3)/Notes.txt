@@ -1,0 +1,7 @@
+contest https://codeforces.com/contest/1367 Tound #650 (Div3)
+
+Was able to solve 2 of 7 questions, A and B, Man C was almosttttt solved but couldn't figure out a way to find out the 
+number of windows of zeros eg [0100010011] here zero pools are (1,3,2) i.e, the list of count of continous zeros.
+
+This time my time managment was good, I visited all problems once; only took around 15 mins to check out C and then
+moved ahead with other questions, rest felt quite difficult

@@ -74,3 +74,4 @@
 		and try to come up with a formula/ try to simplify the problem...... The formula for this problem that I came up with doesn't feel that efficient.
 
 23: 16/06/2020: Good One, 822B, window score (idk what to call it...) first time did something like this
+		+ CodeForces Round #650 (Div 3)
