@@ -77,3 +77,6 @@
 		+ CodeForces Round #650 (Div 3)
 
 24: 17/06/2020: Others/MergeSortedArray: I got the idea but while implementing I was over complicating things..... Thanks to GeekForGeeks for helping me clear implementation.
+		++ Dudee!!! The CodeForces questions are getting tougher as I am progressing through levels,
+		here 864B was string related, I had to do quite a lot and used test cases to anyhow submit it,
+		It's about time I analyze editorials of each problem that I solve or try to solve.....
