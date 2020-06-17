@@ -75,3 +75,5 @@
 
 23: 16/06/2020: Good One, 822B, window score (idk what to call it...) first time did something like this
 		+ CodeForces Round #650 (Div 3)
+
+24: 17/06/2020: Others/MergeSortedArray: I got the idea but while implementing I was over complicating things..... Thanks to GeekForGeeks for helping me clear implementation.
