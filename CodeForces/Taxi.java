@@ -14,8 +14,8 @@ public class Taxi{
         }
         
         int total = arr[4];
-        total += arr[2]/4;
-        if(arr[2] % 4 != 0){
+        total += arr[2]/2;
+        if(arr[2] % 2 != 0){
             arr[2] = 1;
             arr[1] -= 2;
             total++;
