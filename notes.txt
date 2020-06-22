@@ -80,3 +80,6 @@
 		++ Dudee!!! The CodeForces questions are getting tougher as I am progressing through levels,
 		here 864B was string related, I had to do quite a lot and used test cases to anyhow submit it,
 		It's about time I analyze editorials of each problem that I solve or try to solve.....
+
+25: 22/06/2020: Problem: 727A, At first it seemed easy but I was doing one promitive mistake which was unclear by checking only test cases..... 
+		(see inline comments for specific). I should test my code with my own edge and other test cases.

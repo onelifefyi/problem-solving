@@ -15,6 +15,10 @@ public class Transfer{
                 aLst.add(no);
             }
             else{
+                if(no % 10 != 1){
+                    System.out.println("NO");
+                    return;
+                }
                 no = no/10;
                 aLst.add(no);
             }
