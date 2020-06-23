@@ -83,3 +83,7 @@
 
 25: 22/06/2020: Problem: 727A, At first it seemed easy but I was doing one promitive mistake which was unclear by checking only test cases..... 
 		(see inline comments for specific). I should test my code with my own edge and other test cases.
+
+26: 23/06/2020: Problem: 1366/A: This was a unique one, first came up with a solution which wasn't correct(Only checking max/min and a WRONG implementation based on it)
+		Then I solved it using an iterative method, Works correctly but time limit exceeded. Damn!!
+		(I think I should start solving in the morning and checkout editorial or other resource for the problem that I can't solve (OR solve too!! I'm not that efficient yets))
