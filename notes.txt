@@ -87,3 +87,7 @@
 26: 23/06/2020: Problem: 1366/A: This was a unique one, first came up with a solution which wasn't correct(Only checking max/min and a WRONG implementation based on it)
 		Then I solved it using an iterative method, Works correctly but time limit exceeded. Damn!!
 		(I think I should start solving in the morning and checkout editorial or other resource for the problem that I can't solve (OR solve too!! I'm not that efficient yets))
+
+27: 28/06/2020: CodeForces Div3 Round 653 1 only one: Not a good feeling my 3rd contest and I'm solving lesser problems then ever.
+		In this round I solved only C; A & B time out; D partially solved; E1, E2 and F Didn't even had a look.
+		Feeling Down :(
