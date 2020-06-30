@@ -91,3 +91,5 @@
 27: 28/06/2020: CodeForces Div3 Round 653 1 only one: Not a good feeling my 3rd contest and I'm solving lesser problems then ever.
 		In this round I solved only C; A & B time out; D partially solved; E1, E2 and F Didn't even had a look.
 		Feeling Down :(
+
+28: 30/06/2020: CTCI, Solved problem: String with all possible solution + Learn bit manipulation (BitSet).
