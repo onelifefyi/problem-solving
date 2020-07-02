@@ -95,3 +95,6 @@
 28: 30/06/2020: CTCI, Solved problem: String with all possible solution + Learn bit manipulation (BitSet).
 
 29: 02/07/2020: Stack, man I couldn't solve two problems from GFG (Solved but nothing better than O(N^2)) it's given that it can be solved by using stacks in O(N) but I didn't get the hint
+		+ CTCI problem OneAway, I solved this but I had a really bad bug!! After checking the hint, I was able to solve it in O(N) but the implementation wasn't that cool (lots of DS)
+		  after looking at solution at CTCI, saw a cool and simple implementation without any need of complex DS (Hash and others)
+		> TIP: try to simplify things as much as possible, eg try to solve by using simple array before throwing a hashmap or other DS on it
