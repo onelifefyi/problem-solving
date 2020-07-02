@@ -93,3 +93,5 @@
 		Feeling Down :(
 
 28: 30/06/2020: CTCI, Solved problem: String with all possible solution + Learn bit manipulation (BitSet).
+
+29: 02/07/2020: Stack, man I couldn't solve two problems from GFG (Solved but nothing better than O(N^2)) it's given that it can be solved by using stacks in O(N) but I didn't get the hint
