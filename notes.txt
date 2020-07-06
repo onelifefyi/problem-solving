@@ -98,3 +98,7 @@
 		+ CTCI problem OneAway, I solved this but I had a really bad bug!! After checking the hint, I was able to solve it in O(N) but the implementation wasn't that cool (lots of DS)
 		  after looking at solution at CTCI, saw a cool and simple implementation without any need of complex DS (Hash and others)
 		> TIP: try to simplify things as much as possible, eg try to solve by using simple array before throwing a hashmap or other DS on it
+
+30: 06/07/2020: ZeroMatrix from CTCI/Arrays-Strings:
+		> Learning: Always comeup with a brute force first which can be implemented, don't be stuck optimising on the first go; first make Brute Force and then optimise later.
+			
