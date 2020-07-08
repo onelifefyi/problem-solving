@@ -102,3 +102,6 @@
 30: 06/07/2020: ZeroMatrix from CTCI/Arrays-Strings:
 		> Learning: Always comeup with a brute force first which can be implemented, don't be stuck optimising on the first go; first make Brute Force and then optimise later.
 			
+31: 08/07/2020: Sometimes we need to assume data structure implementation, eg CTCI/KthLast.java, here we had to solve a problem of linked list,
+		and java collection's LinkedList doesn't have Nodes and next references, So we had to assume that we have an LinkedList implementation
+		with Nodes and underlying pointers.
