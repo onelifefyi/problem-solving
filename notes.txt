@@ -105,3 +105,6 @@
 31: 08/07/2020: Sometimes we need to assume data structure implementation, eg CTCI/KthLast.java, here we had to solve a problem of linked list,
 		and java collection's LinkedList doesn't have Nodes and next references, So we had to assume that we have an LinkedList implementation
 		with Nodes and underlying pointers.
+
+32: 09/07/2020: I should start writing down my thinking too, befor moving forward whatever that is coming in my mind even if I know at some point/case it'll be wrong.
+		- NB I made a mistake while solveing CTCI/linked-list/Delete-middle: I didn't read the question very carefully. Only a single node is given and no information about head!
