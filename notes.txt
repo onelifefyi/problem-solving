@@ -112,3 +112,5 @@
 33: 10/07/2020: It's hard to concentrate at problem solving/ screens in general after a long day of work/
 		I did an easy one, even in that i got two wrong submissions, I didn't read the question carefully;
 		Always remember to be in well rested and good state while problem solving; I cou;ldn't even understatnd CTCI/LinkedLIst/ Move to left problem; I ended up solving CF 800
+
+34: 13/07/2020: I modded one CTCI problem to use my implementation of LinkedList, it worked!

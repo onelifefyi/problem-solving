@@ -7,26 +7,27 @@
         //  an element, we can store the element list in HashSet to have collection of unique 
         //  elements with fast lookup;    time O(N)        <Extra space needed>
 
-import java.util.LinkedList;
+//import java.util.LinkedList;
 import java.util.HashSet;
 public class RemoveDups{
     public static void main(String[] args){
-        LinkedList<Integer> lLst = new LinkedList<Integer>();
+        LinkedList lLst = new LinkedList();
         HashSet<Integer> hSet = new HashSet<Integer>();
-        lLst.add(14);
-        lLst.add(61);
-        lLst.add(61);
-        lLst.add(75);
-        lLst.add(75);
-        lLst.add(75);
-        lLst.add(14);
+        lLst.addLast(14);
+        lLst.addLast(61);
+        lLst.addLast(61);
+        lLst.addLast(75);
+        lLst.addLast(75);
+        lLst.addLast(75);
+        lLst.addLast(14);
+        lLst.showElements();
         for(int i=0; i<lLst.size(); i++){
-            if(hSet.contains(lLst.get(i))){
-                lLst.remove(i);
+            if(hSet.contains(lLst.valueAt(i))){
+                lLst.deleteFrom(i);
                 i--;
             }
-            else hSet.add(lLst.get(i));
+            else hSet.add(lLst.valueAt(i));
         }
-        System.out.println(lLst);
+        lLst.showElements();
     }
 }
