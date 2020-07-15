@@ -114,3 +114,6 @@
 		Always remember to be in well rested and good state while problem solving; I cou;ldn't even understatnd CTCI/LinkedLIst/ Move to left problem; I ended up solving CF 800
 
 34: 13/07/2020: I modded one CTCI problem to use my implementation of LinkedList, it worked!
+
+35: 15/07/2020: CTCI problems 2x : Intersection and detect loop: Got to learn one cool technique of fast and slow pointer to detect if loop exists or not!! 
+				   The full problem still unsolved of detecting loop.
