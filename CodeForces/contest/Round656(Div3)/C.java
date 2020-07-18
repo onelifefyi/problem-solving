@@ -13,7 +13,7 @@ public class C{
                 count++;
                 last--;
             }
-            while(last > 0 && (arr[last] > arr[last-1])){
+            while(last > 0 && (arr[last] >= arr[last-1])){
                 count++;
                 last--;
             }            

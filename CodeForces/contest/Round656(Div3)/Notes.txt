@@ -2,3 +2,9 @@ CodeForces Div3 Round 656
 https://codeforces.com/blog/entry/80196
 
 I was able to succesfully solve only one problem 'B' that's soo devastating!! :(
+
+Analysis:
++++ NOOOOOOOOOO: I missed C with only because of 1 '=' sign!!!!!!!!!! <See line 16 :(>
+
+Man, I was so frustated while solving that what was missing!!! I was quite sure that I had a correct solution!
+I should have calmly checked it once more!!! 
