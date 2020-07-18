@@ -117,3 +117,5 @@
 
 35: 15/07/2020: CTCI problems 2x : Intersection and detect loop: Got to learn one cool technique of fast and slow pointer to detect if loop exists or not!! 
 				   The full problem still unsolved of detecting loop.
+
+36: 18/07/2020: CF Round 656 Div 3; Solved only 1 problem :(
