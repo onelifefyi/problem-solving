@@ -119,3 +119,5 @@
 				   The full problem still unsolved of detecting loop.
 
 36: 18/07/2020: CF Round 656 Div 3; Solved only 1 problem :(
+
+37: 23/07/2020: Got back to solve CTCI problems; bad results really do demotivate and I had a lot going on.....!! 
