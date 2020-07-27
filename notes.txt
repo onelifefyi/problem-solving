@@ -121,3 +121,5 @@
 36: 18/07/2020: CF Round 656 Div 3; Solved only 1 problem :(
 
 37: 23/07/2020: Got back to solve CTCI problems; bad results really do demotivate and I had a lot going on.....!! 
+
+38: 27/07/2020: !@$@%!!! I can't solve a problem when I'm too damn angry!!! Tried StackOfPlates from CTCI p3.3 + solved CF1000 56A 
