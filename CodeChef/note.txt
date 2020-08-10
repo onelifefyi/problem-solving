@@ -1,0 +1,4 @@
+Note:
+
+1) Don't use public class
+2) If using public class, name that class "Main"
