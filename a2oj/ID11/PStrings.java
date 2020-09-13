@@ -1,3 +1,4 @@
+// problem #27: https://codeforces.com/problemset/problem/112/A
 import java.util.Scanner;
 public class PStrings {
     public static void main(String[] args) {
