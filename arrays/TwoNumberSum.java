@@ -21,22 +21,43 @@ import java.util.HashSet;
 
 public class TwoNumberSum{
 
+    // public static int[] getTwoSum(int[] arr, int sum){
+    //     int[] result = new int[2];
+    //     int[] emptyArr = {};
+    //     boolean foundSum = false;
+    //     HashSet<Integer> hSet = new HashSet<Integer>();
+    //     for(int ele: arr){
+    //         if(hSet.contains(sum-ele)){
+    //             result[0] = Math.min(ele, sum-ele);
+    //             result[1] = Math.max(ele, sum-ele);
+    //             foundSum = true;
+    //             break;
+    //         }
+    //         else hSet.add(ele);
+    //     }
+    //     if(foundSum) return result;
+    //     else return emptyArr;
+    // }
+
     public static int[] getTwoSum(int[] arr, int sum){
         int[] result = new int[2];
         int[] emptyArr = {};
         boolean foundSum = false;
-        HashSet<Integer> hSet = new HashSet<Integer>();
-        for(int ele: arr){
-            if(hSet.contains(sum-ele)){
-                result[0] = Math.min(ele, sum-ele);
-                result[1] = Math.max(ele, sum-ele);
-                foundSum = true;
-                break;
+        Arrays.sort(arr);
+        int left = 0;
+        int right = arr.length - 1;
+        while(left < right){
+            if(arr[left] + arr[right] == sum){
+                result[0] = arr[left];
+                result[1] = arr[right];
+                return result;
             }
-            else hSet.add(ele);
+            if(arr[left] + arr[right] > sum){
+                right--;
+            }
+            else left++;
         }
-        if(foundSum) return result;
-        else return emptyArr;
+        return emptyArr;
     }
 
     public static void main(String[] args) {
