@@ -10,6 +10,7 @@ public class B {
             int total = 0;
             for(char ch: sObj.nextLine().toCharArray()){
                 if(ch == '<'){
+                    if(staged == 1) total += 
                     total += staged;
                     staged = 0;
                 }
