@@ -1,3 +1,4 @@
+# https://codeforces.com/problemset/problem/110/A
 count = 0
 for char in input():
     if char in ['4','7']:
