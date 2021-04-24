@@ -14,6 +14,7 @@
 #             return index+1
         
 # Approach 2: keep setting the value -ve at index
+# This modifies the array, sometimes not appretiated
 # Time O(n) | Aux space O(1)
 def getMissing(arr):
     for num in arr:
