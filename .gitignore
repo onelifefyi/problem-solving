@@ -1,3 +1,5 @@
 *.class
 *.exe
 *.out
+*.obj
+*.vs
