@@ -5,7 +5,7 @@
 # remove all the characters count of second string.
 # IF the frequency table is 0 then anagram else not anagram
 
-# Time: inserting O(n) + deleting O(n) + checking O(n)
+# Time: inserting O(n) + deleting O(n) + checking O(1)
 # O(n)
 def isAnagram(s, t):
     freqList = [0] * 26
