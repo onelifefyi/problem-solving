@@ -1,7 +1,4 @@
 # EPI page 45
-
-
-
 # If we had the option to use additional space, then we can push all the elements
 # in the set or create another array and publish unique values, and return the result
 # Time O(n) | Space O(n)
