@@ -24,7 +24,7 @@
 
 # Another cool way:
 # XOR operation is the parity, we can exploit this by performing XOR multiple times each time taking half the bits (XOR is associative)
-# O(1) for 64 bit input
+# O(log(n)) where n is word size
 def findParity(num):
     result = num
     result = result ^ (result >> 32)
