@@ -11,7 +11,7 @@
 # I'm thinking two pass
 # Pass one, get to the row
 # Second pass, get the col or return False
-# Time O(nlogn + mlogm) | Space O(1) 
+# Time O(logn + logm) | Space O(1) 
 def searchMatrix(matrix, target):
     # row selection
     top_row = 0
