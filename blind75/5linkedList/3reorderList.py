@@ -19,21 +19,28 @@ class ListNode:
 # Finally, keep alternating
 class Solution:
     def reorderList(self, head):
-        """
-        Do not return anything, modify head in-place instead.
-        """
-        result = ListNode()
-        slow, fast = head, head
+        slow, fast = head, head.next
         while fast and fast.next:
-            fast = fast.next.next
             slow = slow.next
-        
-        prev = slow
-        curr = slow.next
-        while curr:
-            temp = curr.next
-            curr.next = prev
-            prev = curr
-            curr = temp
-        curr = prev
-        
+            fast = fast.next.next
+
+        # Reverse the 2nd half
+        second = slow.next
+        slow.next = None
+        prev = None
+
+        while second:
+            tmp = second.next
+            second.next = prev
+            prev = second
+            second = tmp
+
+        # Merge
+        first, second = head, prev
+        while second:
+            tmp1, tmp2 = first.next, second.next
+            first.next = second
+            second.next = tmp1
+            first = tmp1
+            second = tmp2
+
