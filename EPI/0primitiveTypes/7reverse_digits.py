@@ -6,7 +6,7 @@
 def reverse(x: int) -> int:
     result, remaining = 0, abs(x)
     while remaining:
-        result = (result * 10) + (remaining % 10)
+        result = (result * 10) + (remaining % 10)q
         remaining = remaining // 10
     return result if x >= 0 else result * -1
 
