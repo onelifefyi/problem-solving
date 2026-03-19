@@ -17,17 +17,23 @@
 # Have two pointers, keep inserting whatever is smaller to a new Node
 # When either linked list ends, insert the rest
 # Time O(n) | Space O(1)
+
+# The place where I messed up earlier..
+# I was first moving curr to next, then updating it.. that doesn't allow the past node's next to update to curr (that was stupid of me)
+# Fixed it now
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
         head = ListNode()
-        new_list = head
+        curr = head
         while list1 and list2:
             if list1.val < list2.val:
-                new_list.next = list1
+                curr.next = list1
                 list1 = list1.next
+                curr = curr.next
             else:
-                new_list.next = list2
+                curr.next = list2
                 list2 = list2.next
-        if list1: new_list.next = list1
-        if list2: new_list.next = list2
+                curr = curr.next
+        if list1: curr.next = list1
+        if list2: curr.next = list2
         return head.next
