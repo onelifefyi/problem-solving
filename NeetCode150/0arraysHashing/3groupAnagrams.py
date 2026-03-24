@@ -34,7 +34,7 @@
 # Represent each word as tuple containing 26 english caracters in order, keep putting it in a list
 # Store each unique in hashmap, tuple as key, word as value (in a list)
 # Return the list of all values
-# Time O(n*m) where m is length of word | Space O(1 + n) 26 characters O(1) + O(n) for all the words
+# Time O(n*m) where m is length of word | Space O(n*m) 26 characters O(1) + O(n) for all the words
 
 from collections import defaultdict
 def groupAnagrams(strs):
