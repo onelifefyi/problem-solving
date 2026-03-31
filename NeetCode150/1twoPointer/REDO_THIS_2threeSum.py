@@ -6,6 +6,8 @@
 # Time O(nlogn) | Space O(n)
 
 # Still has duplicate problem
+
+# Need redo - not complete
 def threeSum(nums):
     res = []
     nums.sort()
