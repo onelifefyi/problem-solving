@@ -23,7 +23,7 @@ def twoSum(numbers, target):
     while left < right:
         if numbers[left] + numbers[right] > target: right -= 1
         elif numbers[left] + numbers[right] < target: left += 1
-        else: return [left, right]
+        else: return [left + 1, right + 1]
     return [-1, -1]
 
 
