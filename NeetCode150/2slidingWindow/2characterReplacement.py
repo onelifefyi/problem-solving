@@ -24,12 +24,19 @@ There may exists other ways to achieve this answer too.
 # 
 from collections import defaultdict
 def characterReplacement(s: str, k: int) -> int:
-    freq = defaultdict(int)
-    maxFreq = 0
-    left, right = 0, 0
-    while right < len(s):
-        
+    count = {}
+    res = 0
 
+    l = 0
+    max_freq = 0
+    for r in range(len(s)):
+        count[s[r]] = count.get(s[r], 0) + 1
+        max_freq = max(max_freq, count[s[r]])
+        while (r - l + 1) - max_freq > k:
+            count[s[l]] -=  1
+            l += 1
+        res = max(res, r - l + 1)
+    return res
 
 # Test cases
 # s = "ABAB"
